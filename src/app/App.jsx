@@ -1,11 +1,21 @@
 import React from 'react';
 import "./App.css";
+import { Navbar } from '../components/layout/Navbar';
+import Footer from '../components/layout/Footer';
 
 const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline text-red-400">
-    Hello world!
-  </h1>
+    <>
+      <div className='realtive'>
+
+      <Navbar/>
+      </div>
+      <div className='bg-slate-500 w-full h-screen'></div>
+      <div className='relative'>
+
+        <Footer/>
+      </div>
+    </>
   )
 }
 
